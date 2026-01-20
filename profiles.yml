@@ -1,0 +1,13 @@
+dbt_snowflake:
+  outputs:
+    dev:
+      account: us28217.ap-southeast-1
+      database: DBT
+      password: Kalariya@38/38
+      role: accountadmin
+      schema: PUBLIC
+      threads: 1
+      type: snowflake
+      user: VRUND3101
+      warehouse: COMPUTE_WH
+  target: dev
